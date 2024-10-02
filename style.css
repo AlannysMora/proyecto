@@ -1,0 +1,212 @@
+*{
+    margin:20px;
+    padding: 0px;
+}
+h1{
+    font: bold 20px verdana, sans-serif;
+}
+h2{
+    font: bold 20px verdana, sans-serif;
+
+}
+h3{
+  font: bold 20px verdana, sans-serif;
+
+}
+
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+#agrupar{
+    width: 910px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+img{
+    width: 190px;
+    height: auto;
+}
+
+#cabecera{
+    background: hsl(266, 100%, 82%);
+    border: 1px solid #999999;
+    padding: 20px;
+    -moz-box-radius: 20px / 10px;
+    background: -webkit-linear-gradient(top, #ffaed9,rgb(136, 51, 125));
+    background: -moz-linear-gradient(top, #ee91ee, rgb(189, 63, 189));
+
+}
+
+#menu{
+    background-color: rgb(216, 148, 195);
+    padding: 10px 150px;
+    box-shadow: 9px 9px 9px rgb(223, 156, 201);
+    height:30px;
+}
+#menu li, #menu ul, #menu a{
+    display: inline;
+    list-style: none;
+    padding: 5px 20px;
+    font: bold 15px verdana, sans-serif;
+}
+
+#seccion{
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+ #columna{
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 0%);
+    border: 0px solid #000000;
+ }
+
+ #pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #e2a0d4;
+ }
+
+ article{
+  text-align: left;
+  font: bold 16px verdana, sans-serif;
+    background-color: rgb(248, 184, 234);
+    border: 20px solid #f188d2;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: gabriela;
+    
+
+  }
+  
+ article footer{
+    text-align: center;
+ }
+
+ time{
+    color: rgb(170, 29, 175);
+ }
+
+ figcaption{
+    font: italic 14px verdana, sans-serif;
+ }
+ #menu > ul > li {
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    border: 1px solid #fd3ef4;
+  }
+  #menu > ul > li > a {
+    color: #940d77;
+    font-size: 15px;
+    padding: 11px 20px;
+    -webkit-transition: color .15s;
+    -moz-transition: color .15s;
+    -ms-transition: color .15s;
+    -o-transition: color .15s;
+    transition: color .15s;
+  }
+  #menu > ul > li > a:hover {color: #cd8ccf;}
+  #menu > ul > li > ul {
+    opacity: 0;
+    visibility: hidden;
+    padding: 16px 0 20px 0;
+    background-color: #c270d3;
+    text-align: left;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    margin-left: -90px;
+    width: 180px;
+    -webkit-transition: all .3s .1s;
+    -moz-transition: all .3s .1s;
+    -o-transition: all .3s .1s;
+    transition: all .3s .1s;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 3px rgb(243, 134, 247);
+    box-shadow: 0px 1px 3px rgb(207, 138, 190);
+  }
+  #menu > ul > li:hover > ul {
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+  }
+  #menu > ul > li > ul:before {
+    content: '';
+    display: block;
+    border-color: transparent transparent #df9ed9 transparent;
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -10px;
+  }
+  #menu > ul ul > li {position: relative;}
+  #menu ul ul a {
+    color: #000000;
+    font-size: 13px;
+    background-color: #cc5fb1;
+    padding: 5px 8px 7px 16px;
+    display: block;
+    -webkit-transition: background-color 0.1s;
+    -moz-transition: background-color 0.1s;
+    -ms-transition: background-color 0.1s;
+    -o-transition: background-color 0.1s;
+    transition: background-color 0.1s;
+  }
+  #menu > ul > li > ul > li > ul:before {
+    content: '';
+    display: block;
+    border-color: transparent #333 transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+    top: 23%;
+    left: -20px;
+  }
+  #menu ul ul ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: -16px;
+    left: 206px;
+    padding: 16px 0 20px 0;
+    background-color: #fafafa;
+    text-align: left;
+    width: 180px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  }
+  #menu ul ul > li:hover > ul {
+    opacity: 1;
+    left: 200px;
+    visibility: visible;
+  }
+  #menu ul ul a:hover {
+    background-color: #c48ec9;
+    color: #ac569e;
+  }
+
+li img{
+  width: 90px;
+    height: auto;
+
+  }
